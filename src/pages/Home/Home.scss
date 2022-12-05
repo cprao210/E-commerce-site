@@ -1,0 +1,17 @@
+.products{
+    display: flex;
+    .left{
+    flex: 1;
+    // position: sticky;
+    height: 100%;
+    top: 50px;
+}
+.right{ flex: 3;
+    .list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-decoration: none;
+      }
+
+}}
